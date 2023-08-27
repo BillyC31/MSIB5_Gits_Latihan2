@@ -1,0 +1,61 @@
+body {          
+    background-image: linear-gradient(70deg, #927f75 0, #6f6d6b 16.67%, #4a5962 33.33%, #1f4459 50%, #003051 66.67%, #001e49 83.33%, #000941 100%);
+}
+.container {
+  max-width: 400px;
+  left:33%;
+  top:5%;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: whitesmoke;
+  
+  border-radius: 5px;    
+  position: absolute;          
+}
+h2{
+    color: #000941;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+label {
+  font-weight: bold;
+}
+select, input[type="text"] {
+background: whitesmoke;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1f4459;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type="text"]:focus{
+    background: #001e49;
+    color:white
+}
+button {
+  background: linear-gradient(70deg, #927f75 0, #6f6d6b 16.67%, #4a5962 33.33%, #1f4459 50%, #003051 66.67%, #001e49 83.33%, #000941 100%);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+table {
+  width: 100%;
+  border:2px solid #003051;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
